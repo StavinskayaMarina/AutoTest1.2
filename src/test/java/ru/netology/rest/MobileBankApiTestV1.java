@@ -21,6 +21,7 @@ class MobileBankApiTestV1 {
                 .statusCode(200)
                 // static import для JsonSchemaValidator.matchesJsonSchemaInClasspath
                 .body("[0].id", equalTo(1))
+
         ;
     }
 }
